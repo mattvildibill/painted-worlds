@@ -1,0 +1,47 @@
+{
+  "lily-lake": {
+    "geometrySha256": "cd700e5add7784c88fa6027f1bfb261532f317b1a21550367f35f49368f328db",
+    "width": 1536,
+    "height": 975
+  },
+  "rose-peaks": {
+    "geometrySha256": "cd700e5add7784c88fa6027f1bfb261532f317b1a21550367f35f49368f328db",
+    "width": 1536,
+    "height": 1376
+  },
+  "canyon": {
+    "geometrySha256": "cd700e5add7784c88fa6027f1bfb261532f317b1a21550367f35f49368f328db",
+    "width": 1536,
+    "height": 1290
+  },
+  "orchard": {
+    "geometrySha256": "cd700e5add7784c88fa6027f1bfb261532f317b1a21550367f35f49368f328db",
+    "width": 1536,
+    "height": 1476
+  },
+  "coast": {
+    "geometrySha256": "cd700e5add7784c88fa6027f1bfb261532f317b1a21550367f35f49368f328db",
+    "width": 1536,
+    "height": 1145
+  },
+  "village": {
+    "geometrySha256": "cd700e5add7784c88fa6027f1bfb261532f317b1a21550367f35f49368f328db",
+    "width": 1536,
+    "height": 1145
+  },
+  "pine-trail": {
+    "geometrySha256": "cd700e5add7784c88fa6027f1bfb261532f317b1a21550367f35f49368f328db",
+    "width": 1536,
+    "height": 1145
+  },
+  "country-lane": {
+    "geometrySha256": "cd700e5add7784c88fa6027f1bfb261532f317b1a21550367f35f49368f328db",
+    "width": 1536,
+    "height": 1145
+  },
+  "winter-barn": {
+    "geometrySha256": "cd700e5add7784c88fa6027f1bfb261532f317b1a21550367f35f49368f328db",
+    "width": 1536,
+    "height": 1145
+  }
+}

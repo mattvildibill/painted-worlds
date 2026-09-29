@@ -1,0 +1,73 @@
+{
+  "assets": [
+    {
+      "name": "lily-lake",
+      "path": "/workspace/sites/painted-worlds/dist/assets/reference/3177.webp",
+      "prompt": "Use case: stylized-concept. Asset type: immersive website environment texture. Generate ONE single high-detail seamless 360x180-degree EQUIRECTANGULAR environment painting at 3072x1536 or larger, exactly 2:1 aspect ratio. The attached painting is the authoritative style and forward-scene reference, not an image to tile. This is an imagined complete surrounding world. Equirectangular projection: horizon exactly y=50%; top edge is zenith sky, bottom edge is nadir ground, left and right edges meet seamlessly at the same rear-facing direction. Center x=50% is original forward direction. Recreate the reference's original subject arrangement within the central approximately 70 degrees horizontally (central 20% of the panorama), extending continuous plausible scenery around the other 290 degrees with equal care and detail. Correct spherical environment projection, not just a wide landscape crop. Hand-painted pigment and characteristic strokes consistent across ALL directions. Preserve source palette, lighting, imperfect paint edges, medium and physical surface texture. Strong distant silhouettes and mid-distance details. No giant near object spanning the nadir. No text, interface, frame, white borders, panels, collage, people, photorealism, low-poly forms, or mirror duplication. No central rectangular inset.\nScene: Lily Lake alpine watercolor. Forward: blue-gray lake with wide transparent blue washes, dark olive flanking mountain walls, ochre ledges and snowy mauve saddle ahead; off-white snow accents, pale blue-gray sky. Viewer stands on shore beside lake. Left and right follow shoreline. Rear, at BOTH outer edges: ochre rocky alpine shoreline with dense irregular dark olive conifers, irregular boulders, receding forest slopes. Do NOT put a second lake behind the viewer. Preserve extraordinarily distinctive broad transparent pigment pools, granulation, rough cold-press white paper tooth and the reference's simplified angular rock paint marks. The ground directly under viewer is subdued ochre stone and soil, small-scale detail, not vast distorted boulders.",
+      "specific": "Scene: Lily Lake alpine watercolor. Forward: blue-gray lake with wide transparent blue washes, dark olive flanking mountain walls, ochre ledges and snowy mauve saddle ahead; off-white snow accents, pale blue-gray sky. Viewer stands on shore beside lake. Left and right follow shoreline. Rear, at BOTH outer edges: ochre rocky alpine shoreline with dense irregular dark olive conifers, irregular boulders, receding forest slopes. Do NOT put a second lake behind the viewer. Preserve extraordinarily distinctive broad transparent pigment pools, granulation, rough cold-press white paper tooth and the reference's simplified angular rock paint marks. The ground directly under viewer is subdued ochre stone and soil, small-scale detail, not vast distorted boulders.",
+      "generatedOriginal": "/workspace/scratch/a4a967492809/generated_images/exec-43284591-d3c7-4c37-8a78-fb54f2c6175d.png",
+      "output": "/workspace/painted-worlds-v6-assets/lily-lake-panorama.png",
+      "mode": "built-in image_gen.imagegen",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "requestedDimensions": [
+        3072,
+        1536
+      ]
+    },
+    {
+      "name": "pine-trail",
+      "path": "/workspace/sites/painted-worlds/dist/assets/9930.webp",
+      "prompt": "Use case: stylized-concept. Asset type: immersive website environment texture. Generate ONE single high-detail seamless 360x180-degree EQUIRECTANGULAR environment painting at 3072x1536 or larger, exactly 2:1 aspect ratio. The attached painting is the authoritative style and forward-scene reference, not an image to tile. This is an imagined complete surrounding world. Equirectangular projection: horizon exactly y=50%; top edge is zenith sky, bottom edge is nadir ground, left and right edges meet seamlessly at the same rear-facing direction. Center x=50% is original forward direction. Recreate the reference's original subject arrangement within the central approximately 70 degrees horizontally (central 20% of the panorama), extending continuous plausible scenery around the other 290 degrees with equal care and detail. Correct spherical environment projection, not just a wide landscape crop. Hand-painted pigment and characteristic strokes consistent across ALL directions. Preserve source palette, lighting, imperfect paint edges, medium and physical surface texture. Strong distant silhouettes and mid-distance details. No giant near object spanning the nadir. No text, interface, frame, white borders, panels, collage, people, photorealism, low-poly forms, or mirror duplication. No central rectangular inset.\nScene: Pine trail watercolor. Forward: warm ochre walking trail winds slightly to the right between irregular dark and olive evergreen trees, pale mauve mountain ridge on forward left, pale cyan cool clouded sky. Match broad overlapping transparent watercolor pools, rough white paper grain, loose angular dark branches, yellow-green moss, isolated gray and mauve stones, and warm sunlit path. Trail continues behind viewer through dense irregular pines, rocks and moss. Rear same richness and layered forest depth as forward. Evergreen silhouettes are organic and varied, not repeated triangles. Keep brush scale and abstraction closely matched to the supplied watercolor.",
+      "specific": "Scene: Pine trail watercolor. Forward: warm ochre walking trail winds slightly to the right between irregular dark and olive evergreen trees, pale mauve mountain ridge on forward left, pale cyan cool clouded sky. Match broad overlapping transparent watercolor pools, rough white paper grain, loose angular dark branches, yellow-green moss, isolated gray and mauve stones, and warm sunlit path. Trail continues behind viewer through dense irregular pines, rocks and moss. Rear same richness and layered forest depth as forward. Evergreen silhouettes are organic and varied, not repeated triangles. Keep brush scale and abstraction closely matched to the supplied watercolor.",
+      "generatedOriginal": "/workspace/scratch/a4a967492809/generated_images/exec-a430d426-166d-432e-ba83-9afaaaba080b.png",
+      "output": "/workspace/painted-worlds-v6-assets/pine-trail-panorama.png",
+      "mode": "built-in image_gen.imagegen",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "requestedDimensions": [
+        3072,
+        1536
+      ]
+    },
+    {
+      "name": "country-lane",
+      "path": "/workspace/sites/painted-worlds/dist/assets/2802.webp",
+      "prompt": "Use case: stylized-concept. Asset type: immersive website environment texture. Generate ONE single high-detail seamless 360x180-degree EQUIRECTANGULAR environment painting at 3072x1536 or larger, exactly 2:1 aspect ratio. The attached painting is the authoritative style and forward-scene reference, not an image to tile. This is an imagined complete surrounding world. Equirectangular projection: horizon exactly y=50%; top edge is zenith sky, bottom edge is nadir ground, left and right edges meet seamlessly at the same rear-facing direction. Center x=50% is original forward direction. Recreate the reference's original subject arrangement within the central approximately 70 degrees horizontally (central 20% of the panorama), extending continuous plausible scenery around the other 290 degrees with equal care and detail. Correct spherical environment projection, not just a wide landscape crop. Hand-painted pigment and characteristic strokes consistent across ALL directions. Preserve source palette, lighting, imperfect paint edges, medium and physical surface texture. Strong distant silhouettes and mid-distance details. No giant near object spanning the nadir. No text, interface, frame, white borders, panels, collage, people, photorealism, low-poly forms, or mirror duplication. No central rectangular inset.\nScene: Country lane, loose oil/acrylic on canvas. Forward arrangement: pale cream twin-rut dirt lane curving from below toward forward right, olive meadows, very tall dark slender cypresslike tree on forward left, large leafy dark tree mass at forward right, distant blue low hills, muted pale gray-white sky. Around sides and rear: connected meadows, hedges, individual irregular trees, gentle low hills, and the twin-rut lane continuing behind viewer. Match loose thick paint with visible fine canvas weave, blocky layered olive and deep green strokes, dry bristle breaks and subtle raised paint, not photoreal, not smooth digital illustration. Maintain original restrained warm olive palette and cool blue distance.",
+      "specific": "Scene: Country lane, loose oil/acrylic on canvas. Forward arrangement: pale cream twin-rut dirt lane curving from below toward forward right, olive meadows, very tall dark slender cypresslike tree on forward left, large leafy dark tree mass at forward right, distant blue low hills, muted pale gray-white sky. Around sides and rear: connected meadows, hedges, individual irregular trees, gentle low hills, and the twin-rut lane continuing behind viewer. Match loose thick paint with visible fine canvas weave, blocky layered olive and deep green strokes, dry bristle breaks and subtle raised paint, not photoreal, not smooth digital illustration. Maintain original restrained warm olive palette and cool blue distance.",
+      "generatedOriginal": "/workspace/scratch/a4a967492809/generated_images/exec-66f7dfcd-adc8-4ee1-aae7-9164f83382bf.png",
+      "output": "/workspace/painted-worlds-v6-assets/country-lane-panorama.png",
+      "mode": "built-in image_gen.imagegen",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "requestedDimensions": [
+        3072,
+        1536
+      ]
+    },
+    {
+      "name": "winter-barn",
+      "path": "/workspace/sites/painted-worlds/dist/assets/7409.webp",
+      "prompt": "Use case: stylized-concept. Asset type: immersive website environment texture. Generate ONE single high-detail seamless 360x180-degree EQUIRECTANGULAR environment painting at 3072x1536 or larger, exactly 2:1 aspect ratio. The attached painting is the authoritative style and forward-scene reference, not an image to tile. This is an imagined complete surrounding world. Equirectangular projection: horizon exactly y=50%; top edge is zenith sky, bottom edge is nadir ground, left and right edges meet seamlessly at the same rear-facing direction. Center x=50% is original forward direction. Recreate the reference's original subject arrangement within the central approximately 70 degrees horizontally (central 20% of the panorama), extending continuous plausible scenery around the other 290 degrees with equal care and detail. Correct spherical environment projection, not just a wide landscape crop. Hand-painted pigment and characteristic strokes consistent across ALL directions. Preserve source palette, lighting, imperfect paint edges, medium and physical surface texture. Strong distant silhouettes and mid-distance details. No giant near object spanning the nadir. No text, interface, frame, white borders, panels, collage, people, photorealism, low-poly forms, or mirror duplication. No central rectangular inset.\nScene: Winter barn, oil/acrylic on canvas. Forward: exactly ONE small muted warm red gambrel-roof barn with white-trimmed X door and gray roof, big bare tree trunk on forward left, dark olive woodland behind. Snow ground with umber exposed earth patches and long muted shadows, atmospheric overcast cool light. Source-matched loose thick paint, visible fine canvas weave, layered drybrush snow and opaque gray-brown tree strokes. Rear at both outer edges: a snowy woodland clearing with irregular bare branching trees, dark woodland edges, scattered exposed brown earth and matching atmospheric light. Barn only ahead, no buildings elsewhere. Do not copy any small foreground ornament or add people. Keep snow-covered ground under viewer softly detailed without giant nearby foreground objects. Central barn should be recognizable but occupy only the forward view, not span a huge portion of this full 360-degree panorama.",
+      "specific": "Scene: Winter barn, oil/acrylic on canvas. Forward: exactly ONE small muted warm red gambrel-roof barn with white-trimmed X door and gray roof, big bare tree trunk on forward left, dark olive woodland behind. Snow ground with umber exposed earth patches and long muted shadows, atmospheric overcast cool light. Source-matched loose thick paint, visible fine canvas weave, layered drybrush snow and opaque gray-brown tree strokes. Rear at both outer edges: a snowy woodland clearing with irregular bare branching trees, dark woodland edges, scattered exposed brown earth and matching atmospheric light. Barn only ahead, no buildings elsewhere. Do not copy any small foreground ornament or add people. Keep snow-covered ground under viewer softly detailed without giant nearby foreground objects. Central barn should be recognizable but occupy only the forward view, not span a huge portion of this full 360-degree panorama.",
+      "generatedOriginal": "/workspace/scratch/a4a967492809/generated_images/exec-32388cbb-8d79-4ca1-ba7d-b232ae928a9b.png",
+      "output": "/workspace/painted-worlds-v6-assets/winter-barn-panorama.png",
+      "mode": "built-in image_gen.imagegen",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "requestedDimensions": [
+        3072,
+        1536
+      ]
+    }
+  ],
+  "notes": "Exactly four distinct built-in calls, source images inspected before generation. Native tool outputs are 1774x887 despite requested minimum 3072x1536; no resampling or postprocessing applied. Surroundings are inferred, not recovered factual geography."
+}

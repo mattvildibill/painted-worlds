@@ -1,0 +1,164 @@
+{
+  "batch": "remaining-five-world-surrounds",
+  "batch_mode": "Five independent built-in calls in one Promise.allSettled parallel batch",
+  "artwork_untouched": true,
+  "assets": [
+    {
+      "id": "6343",
+      "world": "rose-peaks",
+      "reference_path": "/workspace/sites/painted-worlds/dist/assets/reference/6343.webp",
+      "reference_role": "Original authoritative artwork; source remains untouched",
+      "generation_tool": "built-in image_gen.imagegen",
+      "generation_date": "2026-09-12",
+      "request_count": 1,
+      "retries": 0,
+      "projection_requested": "360 x 180 degree equirectangular",
+      "aspect_ratio_requested": "2:1",
+      "requested_dimensions": [
+        4096,
+        2048
+      ],
+      "generated_path": "/workspace/scratch/a4a967492809/generated_images/exec-fba180a1-f806-4d26-a193-be94acb4926e.png",
+      "output_path": "/workspace/painted-worlds-v7-assets/6343-panorama.png",
+      "prompt": "Use case: stylized-concept.\nAsset type: immersive painted browser world, a FULL SPHERE 360-degree equirectangular environment texture, exact 2:1 wide aspect ratio, preferably 4096 x 2048.\nInput image 1 is the original artwork and the authoritative style and scene reference. Extend the world of this exact painting into an inferred surrounding environment as though standing inside it. This is one panorama, not panels or a framed painting.\nProjection/composition: true longitude-latitude full sphere equirectangular 360 x 180 degrees. Forward direction at horizontal image center, eye-level horizon at exactly vertical image center. Left and right outer edges depict the same rearward direction and join seamlessly with continuous colors/forms; neither edge repeats the main forward composition. Top covers the entire sky/zenith and bottom covers ground/nadir. Natural spherical distortion near top/bottom is expected. Fully painted usable terrain surrounds the camera, including to the rear; no circular platform, floor disk, stage or empty generic floor. Keep ground painted all the way to the bottom edge. Broad forward subject and spatial relationships should clearly recall the source while continuing naturally into the side/rear views.\nAbsolute style invariants: preserve THIS source painting's actual medium, exact characteristic palette, brushstroke scale relative to features, visible paper/canvas grain, imperfect overlapping brush edges, pigment scumbling and irregular marks. Distant details are organic hand-painted masses. Do not convert into photorealism, realistic 3D, low-poly, polygonal facets, vectors, digital airbrush or generic smooth concept art. No repeated equal trees, duplicated main buildings, mirrors, collage seams, borders, frames, watermarks or readable new business names.\n\nScene: A near shore of the emerald-turquoise alpine lake faces the distinctive tall rose/coral summit and violet-blue cliffs in the center forward view. Match the original's chunky matte opaque gouache-like paint, loose wide loaded strokes, textured paper, turquoise pale sky, coral pink illuminated rock planes and deep plum-violet shadows. Preserve the summit silhouette and its few irregular pale snow patches. Golden ochre larches mixed with dark blue/green conifers flank the lake; their sizes and shapes vary naturally. Camera stands on a broad irregular earthy/olive painted lakeshore path which continues around the camera and behind, with small rough rocks, mossy brushmarks, patches of dark soil and the same colorful sparse alpine trees. Continue the distant mountain ridges organically to the sides and rear without copying the central summit. Sky remains fully painted to top, uneven source-matched lake/shore/ground to bottom.",
+      "continuation": "Side, rear, zenith and nadir continuation inferred from source painting",
+      "status": "generated",
+      "actual_dimensions": [
+        1774,
+        887
+      ],
+      "format": "PNG",
+      "actual_aspect_ratio": 2.0,
+      "reference_sha256": "be7700f5dfe0c5bcde9effdfeb8f4ceea7578f731f3d7bba7f6acebf8430583b",
+      "output_sha256": "da80d328aeda23fd220c9fc6af8fa4449239a7072801c76c262fa187d3744af5",
+      "visual_qa_note": "Central coral summit and emerald lake; surrounding shoreline and mountains inferred."
+    },
+    {
+      "id": "6345",
+      "world": "canyon",
+      "reference_path": "/workspace/sites/painted-worlds/dist/assets/reference/6345.webp",
+      "reference_role": "Original authoritative artwork; source remains untouched",
+      "generation_tool": "built-in image_gen.imagegen",
+      "generation_date": "2026-09-12",
+      "request_count": 1,
+      "retries": 0,
+      "projection_requested": "360 x 180 degree equirectangular",
+      "aspect_ratio_requested": "2:1",
+      "requested_dimensions": [
+        4096,
+        2048
+      ],
+      "generated_path": "/workspace/scratch/a4a967492809/generated_images/exec-9e0f2e51-e059-4af0-8dda-03f8a89818f7.png",
+      "output_path": "/workspace/painted-worlds-v7-assets/6345-panorama.png",
+      "prompt": "Use case: stylized-concept.\nAsset type: immersive painted browser world, a FULL SPHERE 360-degree equirectangular environment texture, exact 2:1 wide aspect ratio, preferably 4096 x 2048.\nInput image 1 is the original artwork and the authoritative style and scene reference. Extend the world of this exact painting into an inferred surrounding environment as though standing inside it. This is one panorama, not panels or a framed painting.\nProjection/composition: true longitude-latitude full sphere equirectangular 360 x 180 degrees. Forward direction at horizontal image center, eye-level horizon at exactly vertical image center. Left and right outer edges depict the same rearward direction and join seamlessly with continuous colors/forms; neither edge repeats the main forward composition. Top covers the entire sky/zenith and bottom covers ground/nadir. Natural spherical distortion near top/bottom is expected. Fully painted usable terrain surrounds the camera, including to the rear; no circular platform, floor disk, stage or empty generic floor. Keep ground painted all the way to the bottom edge. Broad forward subject and spatial relationships should clearly recall the source while continuing naturally into the side/rear views.\nAbsolute style invariants: preserve THIS source painting's actual medium, exact characteristic palette, brushstroke scale relative to features, visible paper/canvas grain, imperfect overlapping brush edges, pigment scumbling and irregular marks. Distant details are organic hand-painted masses. Do not convert into photorealism, realistic 3D, low-poly, polygonal facets, vectors, digital airbrush or generic smooth concept art. No repeated equal trees, duplicated main buildings, mirrors, collage seams, borders, frames, watermarks or readable new business names.\n\nScene: Inside the narrow dramatic canyon in the reference, looking forward down its pale stony sand path between very tall walls, the left rock mass deep plum/mauve with dark blue-violet painted shadows, the right peach/coral/ochre with sparse pale irregular flecks and fissures. Preserve the source's rough matte opaque paint on strongly textured paper, broad imperfect slab-like brush sweeps, turquoise strip of sky and simple pale clouds. The passage narrows toward center forward eye-level. Continue these canyon walls upward on both sides and around behind into an inferred curving path; the camera is on continuous walkable canyon ground. Tall walls must feel enclosing, not become distant mountains. Upper area includes source-matched canyon walls framing the zenith sky. Entire bottom half has differentiated pale taupe sand, subtle blue-gray and mauve painted stones, scuffs and irregular shadow marks continuing to nadir, with a few small bright green growth patches against the walls. No hikers needed, no roads, no empty monotone floor.",
+      "continuation": "Side, rear, zenith and nadir continuation inferred from source painting",
+      "status": "generated",
+      "actual_dimensions": [
+        1774,
+        887
+      ],
+      "format": "PNG",
+      "actual_aspect_ratio": 2.0,
+      "reference_sha256": "0f91c97515a1832ff3438f07ab226684ae28028d32105fb8a0454f6d809e5601",
+      "output_sha256": "4b9d280d7e561c3446aa7864d80a7b66d9f283087082a406ed533066064e0038",
+      "visual_qa_note": "Central path and wall bases lie well below image midpoint."
+    },
+    {
+      "id": "2667",
+      "world": "orchard",
+      "reference_path": "/workspace/sites/painted-worlds/dist/assets/reference/2667.webp",
+      "reference_role": "Original authoritative artwork; source remains untouched",
+      "generation_tool": "built-in image_gen.imagegen",
+      "generation_date": "2026-09-12",
+      "request_count": 1,
+      "retries": 0,
+      "projection_requested": "360 x 180 degree equirectangular",
+      "aspect_ratio_requested": "2:1",
+      "requested_dimensions": [
+        4096,
+        2048
+      ],
+      "generated_path": "/workspace/scratch/a4a967492809/generated_images/exec-b62b8b47-ce01-4403-ac80-d5a657300dd7.png",
+      "output_path": "/workspace/painted-worlds-v7-assets/2667-panorama.png",
+      "prompt": "Use case: stylized-concept.\nAsset type: immersive painted browser world, a FULL SPHERE 360-degree equirectangular environment texture, exact 2:1 wide aspect ratio, preferably 4096 x 2048.\nInput image 1 is the original artwork and the authoritative style and scene reference. Extend the world of this exact painting into an inferred surrounding environment as though standing inside it. This is one panorama, not panels or a framed painting.\nProjection/composition: true longitude-latitude full sphere equirectangular 360 x 180 degrees. Forward direction at horizontal image center, eye-level horizon at exactly vertical image center. Left and right outer edges depict the same rearward direction and join seamlessly with continuous colors/forms; neither edge repeats the main forward composition. Top covers the entire sky/zenith and bottom covers ground/nadir. Natural spherical distortion near top/bottom is expected. Fully painted usable terrain surrounds the camera, including to the rear; no circular platform, floor disk, stage or empty generic floor. Keep ground painted all the way to the bottom edge. Broad forward subject and spatial relationships should clearly recall the source while continuing naturally into the side/rear views.\nAbsolute style invariants: preserve THIS source painting's actual medium, exact characteristic palette, brushstroke scale relative to features, visible paper/canvas grain, imperfect overlapping brush edges, pigment scumbling and irregular marks. Distant details are organic hand-painted masses. Do not convert into photorealism, realistic 3D, low-poly, polygonal facets, vectors, digital airbrush or generic smooth concept art. No repeated equal trees, duplicated main buildings, mirrors, collage seams, borders, frames, watermarks or readable new business names.\n\nScene: Stand in the orchard garden of the exact reference. In the forward central sector keep a single gray cottage slightly right of center with its pitched dark blue-gray roof and one white-framed lower window, a clothesline with small pale blue, golden yellow and peach laundry to its left, two loose red-brown painted hens on the dappled grassy open ground, and irregular apple tree branches with crimson apples. Preserve luminous translucent watercolor/gouache washes, visible rough white watercolor-paper grain, green pigments bleeding and overlapping, scratchy dark accents and quick uneven leaf strokes. Continue the orchard naturally to either side and rear, varied apple trees at different distances with open grassy paths between them, small untidy source-matched flowering plants and hedges, never uniformly arranged or copied. There is only one cottage. Make the camera area and rear ground a fully painted mix of soft grass washes, warm worn-earth path patches, scattered natural plant brushmarks and dappling all the way to bottom. Full pale blue-white loosely washed sky and some organic overhead apple branches to top; no white margin/frame.",
+      "continuation": "Side, rear, zenith and nadir continuation inferred from source painting",
+      "status": "generated",
+      "actual_dimensions": [
+        1774,
+        887
+      ],
+      "format": "PNG",
+      "actual_aspect_ratio": 2.0,
+      "reference_sha256": "10db55acc748f5b9f3c3c9c150baa9445e6d45bfe6e0e6346995b481c83ddeb7",
+      "output_sha256": "79c4c4c49332d25958343747eed75e36ae3cb3b9beb65e25d3b02250121ca388",
+      "visual_qa_note": "Main gray cottage, clothesline and hens are present centrally."
+    },
+    {
+      "id": "0786",
+      "world": "coast",
+      "reference_path": "/workspace/sites/painted-worlds/dist/assets/reference/0786.webp",
+      "reference_role": "Original authoritative artwork; source remains untouched",
+      "generation_tool": "built-in image_gen.imagegen",
+      "generation_date": "2026-09-12",
+      "request_count": 1,
+      "retries": 0,
+      "projection_requested": "360 x 180 degree equirectangular",
+      "aspect_ratio_requested": "2:1",
+      "requested_dimensions": [
+        4096,
+        2048
+      ],
+      "generated_path": "/workspace/scratch/a4a967492809/generated_images/exec-2dd896a4-e521-44de-abd5-1bb026e26522.png",
+      "output_path": "/workspace/painted-worlds-v7-assets/0786-panorama.png",
+      "prompt": "Use case: stylized-concept.\nAsset type: immersive painted browser world, a FULL SPHERE 360-degree equirectangular environment texture, exact 2:1 wide aspect ratio, preferably 4096 x 2048.\nInput image 1 is the original artwork and the authoritative style and scene reference. Extend the world of this exact painting into an inferred surrounding environment as though standing inside it. This is one panorama, not panels or a framed painting.\nProjection/composition: true longitude-latitude full sphere equirectangular 360 x 180 degrees. Forward direction at horizontal image center, eye-level horizon at exactly vertical image center. Left and right outer edges depict the same rearward direction and join seamlessly with continuous colors/forms; neither edge repeats the main forward composition. Top covers the entire sky/zenith and bottom covers ground/nadir. Natural spherical distortion near top/bottom is expected. Fully painted usable terrain surrounds the camera, including to the rear; no circular platform, floor disk, stage or empty generic floor. Keep ground painted all the way to the bottom edge. Broad forward subject and spatial relationships should clearly recall the source while continuing naturally into the side/rear views.\nAbsolute style invariants: preserve THIS source painting's actual medium, exact characteristic palette, brushstroke scale relative to features, visible paper/canvas grain, imperfect overlapping brush edges, pigment scumbling and irregular marks. Distant details are organic hand-painted masses. Do not convert into photorealism, realistic 3D, low-poly, polygonal facets, vectors, digital airbrush or generic smooth concept art. No repeated equal trees, duplicated main buildings, mirrors, collage seams, borders, frames, watermarks or readable new business names.\n\nScene: Stand on the sandy shore of this exact oil painting facing the low open sea horizon and loosely painted rolling surf across the forward center. Keep the small low olive headland toward the forward left, irregular dark rust-brown shoreline rocks, navy and ultramarine open water, turquoise-green shallow wave faces with broad ridged creamy white foam. Preserve the reference's coarse woven canvas visibly under every form, impasto white wave strokes, thick directional oil brushmarks, small exposed-grain drybrushed areas and restrained pale gray-blue overcast sky. Eye-level ocean horizon at image vertical center; keep the original's sense of low open horizon when viewed from inside. Continue shoreline as an inferred curving beach to the sides with a calm sandy landward rear and low painted grassy banks, no buildings added. Around camera and to nadir use fully painted ochre/beige damp sand, irregular rock brushmarks, shallow seafoam and uneven darker sandy strokes, not blank flat floor. Rear edges are continuous landward shore and sky, not a second duplicate ocean/headland view. Fully painted soft sky to zenith.",
+      "continuation": "Side, rear, zenith and nadir continuation inferred from source painting",
+      "status": "generated",
+      "actual_dimensions": [
+        1774,
+        887
+      ],
+      "format": "PNG",
+      "actual_aspect_ratio": 2.0,
+      "reference_sha256": "2e3111f925a45f5f1e166f470f978168753e7cea26e10cd765b95a2d0983f22d",
+      "output_sha256": "10ccbedd18ddb07f61a8addfe4cbd80cfc121b920aa48e5b3e522f9a91ebb732",
+      "visual_qa_note": "Ocean horizon lies slightly above image midpoint; source headland motif is extended around inferred beach."
+    },
+    {
+      "id": "0169",
+      "world": "village",
+      "reference_path": "/workspace/sites/painted-worlds/dist/assets/reference/0169.webp",
+      "reference_role": "Original authoritative artwork; source remains untouched",
+      "generation_tool": "built-in image_gen.imagegen",
+      "generation_date": "2026-09-12",
+      "request_count": 1,
+      "retries": 0,
+      "projection_requested": "360 x 180 degree equirectangular",
+      "aspect_ratio_requested": "2:1",
+      "requested_dimensions": [
+        4096,
+        2048
+      ],
+      "generated_path": "/workspace/scratch/a4a967492809/generated_images/exec-ae9b972d-c0ea-4ed4-b6b8-5d30686bad83.png",
+      "output_path": "/workspace/painted-worlds-v7-assets/0169-panorama.png",
+      "prompt": "Use case: stylized-concept.\nAsset type: immersive painted browser world, a FULL SPHERE 360-degree equirectangular environment texture, exact 2:1 wide aspect ratio, preferably 4096 x 2048.\nInput image 1 is the original artwork and the authoritative style and scene reference. Extend the world of this exact painting into an inferred surrounding environment as though standing inside it. This is one panorama, not panels or a framed painting.\nProjection/composition: true longitude-latitude full sphere equirectangular 360 x 180 degrees. Forward direction at horizontal image center, eye-level horizon at exactly vertical image center. Left and right outer edges depict the same rearward direction and join seamlessly with continuous colors/forms; neither edge repeats the main forward composition. Top covers the entire sky/zenith and bottom covers ground/nadir. Natural spherical distortion near top/bottom is expected. Fully painted usable terrain surrounds the camera, including to the rear; no circular platform, floor disk, stage or empty generic floor. Keep ground painted all the way to the bottom edge. Broad forward subject and spatial relationships should clearly recall the source while continuing naturally into the side/rear views.\nAbsolute style invariants: preserve THIS source painting's actual medium, exact characteristic palette, brushstroke scale relative to features, visible paper/canvas grain, imperfect overlapping brush edges, pigment scumbling and irregular marks. Distant details are organic hand-painted masses. Do not convert into photorealism, realistic 3D, low-poly, polygonal facets, vectors, digital airbrush or generic smooth concept art. No repeated equal trees, duplicated main buildings, mirrors, collage seams, borders, frames, watermarks or readable new business names.\n\nScene: Stand on the walkable small-village mainstreet sidewalk of the exact reference. Forward view looks down the pale warm-gray sidewalk receding between irregular green street trees on the left and varied closely spaced cream/ochre/gray storefronts on the right. Preserve the distinctive red-orange awning and red/ochre hanging sign shapes in the forward-right sector, dark window/door brushwork, one loose black-framed pavement sandwich board with colored indistinct marks, the red flowers and loose dark vehicle suggestions off left. Do NOT add readable shop or business names; sign marks remain brief abstract paint strokes. Preserve the source's tactile rough canvas, loaded oil-paint brushwork, irregular chunky edges, scraped pale surface and impasto, bold but natural red accents against muted gray, cream and olive. Continue the street and storefront rhythm into an inferred surrounding street setting without duplicating the distinctive main red-awning building; rear edges join continuous ordinary varied fa\u00e7ades and sidewalk/street. Open walkable sidewalk and roadway surround the camera, with imperfect pale slabs, dark sketchy slab seams and varied tree shadow brushmarks continuing all the way down to nadir, no generic smooth empty ground. Fully painted soft blue-gray sky above varied rooflines and irregular tree canopies, no frames.",
+      "continuation": "Side, rear, zenith and nadir continuation inferred from source painting",
+      "status": "generated",
+      "actual_dimensions": [
+        1774,
+        887
+      ],
+      "format": "PNG",
+      "actual_aspect_ratio": 2.0,
+      "reference_sha256": "8be26f8a79c31373866f01210e1ea938929a792afe03e4891d4de80807b2161a",
+      "output_sha256": "9aa81bc65787d5cbf0e9de80b0b1d0e78e6e2d28b96e22ff428865195e165e65",
+      "visual_qa_note": "Main red-awning storefront is present centrally; inferred corner streets extend left and right."
+    }
+  ],
+  "visual_qa": {
+    "inspected": "All five original inputs and returned output images viewed",
+    "coverage": "All outputs contain painted upper and lower coverage with the source subject recognizable forward",
+    "projection_caveat": "These are 2:1 painted panorama illustrations with stretched polar bands. True spherical geometry, exact horizon at 50 percent height, and pixel-perfect horizontal edge continuity are not verified. They require in-world QA.",
+    "style_caveat": "Inferred distant surroundings are generally more finely detailed than the original source paintings.",
+    "landmark_caveat": "Orchard includes the main cottage, laundry and hens; village includes the red-awning storefront. Equivalent modeled foreground landmarks could appear duplicated. No retry was made."
+  }
+}

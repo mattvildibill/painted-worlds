@@ -1,0 +1,16 @@
+{
+  "mode": "Built-in imagegen",
+  "generated_once_per_source": true,
+  "specs": [
+    {
+      "id": "orchard",
+      "prompt": "Use case: precise-object-edit. Asset type: hidden-surface background repair texture for this exact painting. Input image 1 is the EDIT TARGET, not a style reference. Create ONE clean background plate by removing objects from this same image. Preserve the source framing, crop, composition, perspective, original cottage location and exact cottage roof/wall/window geometry, original horizon, palette, loose translucent brush marks and painted paper/canvas character. Remove ALL apple-bearing foreground branches, leaves and fruits across top and edges; remove foreground trunks, shrubs, flowering plants, hens, basket, washing, clothesline and clothesline poles. Reconstruct only the surfaces they occluded: sky, the SAME existing cottage walls/roof, green lawn, dirt path, distant hedge. The cottage remains on the right in its exact source position and scale, with its same single peaked roof at upper right and same lower-right white framed window; do not invent, duplicate, extend, shift, or redesign any building. The open green middle-left and lower lawn should use the same irregular watery yellow-green and olive paint marks. Keep distant landscape/hedge only. This is a conservative occlusion repair, not a new scene. Produce only the artwork, no frame, UI, new labels, photorealism, generic 3D realism, digital smoothness, or additional objects. Match source aspect ratio.",
+      "source": "/workspace/sites/painted-worlds/dist/assets/reference/2667.webp"
+    },
+    {
+      "id": "main-street",
+      "prompt": "Use case: precise-object-edit. Asset type: hidden-surface background repair texture for this exact painting. Input image 1 is the EDIT TARGET, not a style reference. Create ONE clean background plate by removing foreground objects from this same image. Preserve source framing, crop, composition, perspective, the exact existing shop facade positions, rooflines, windows, doors, all fixed awnings including large orange-red upper-right awning, sidewalk and street. Preserve the thick oil-paint impasto, canvas texture, brush direction and source colors. Remove foreground and middle-distance trees and their trunks/canopies; flower planters and flowers; pavement bins; pavement A-frame sandwich boards; projecting/hanging shop signs (round red sign, cream oval projecting sign with black frame/bracket, red square projecting panel, other hanging signs and brackets). Reconstruct the occluded portions of the SAME source facades, sidewalk, street and sky with matching thick impasto brushwork. Maintain the exact building outlines and recession from close facade on right to distant street on left; do not invent replacement buildings, change architecture, move awnings, alter camera/perspective, or reinterpret the painting. Existing visible original surfaces must stay as close as possible. Hidden-surface repair only. Produce only artwork, no UI, labels, frame, photorealism, generic 3D realism, added objects, or smooth digital render. Match source aspect ratio.",
+      "source": "/workspace/sites/painted-worlds/dist/assets/reference/0169.webp"
+    }
+  ]
+}

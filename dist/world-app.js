@@ -44,7 +44,7 @@ async function loadWorld(id,{historyEntry=true,initial=false}={}){
   enteredAt=clock;portalCooldown=clock+2;waypoint=1;renderer.shadowMap.needsUpdate=true;
   $('place-eyebrow').textContent=def.eyebrow;$('world-number').textContent=id==='gallery'?'THE PAINTING GARDEN':'WALKABLE WORLD '+worlds.indexOf(def)+' / '+(worlds.length-1);
   $('place-title').textContent=id==='gallery'&&!playing?'Walk into a painting.':def.title;$('place-detail').textContent=def.summary;$('welcome-copy').textContent=id==='gallery'?'Walk toward a painting and step through its frame.':def.summary;
-  $('garden-button').disabled=id==='gallery';$('source-button').textContent=id==='gallery'?'Original collection':'Original painting';
+  $('garden-button').disabled=id==='gallery';$('source-button').hidden=id==='gallery';$('source-button').textContent=id==='gallery'?'Original collection':'Original painting';
   document.title=def.title+' · Painted Worlds';document.querySelectorAll('.world-card').forEach(b=>b.classList.toggle('current',b.dataset.world===id));
   if(historyEntry)history.pushState(null,'','#'+id);
   resize();updateCamera(0);renderer.render(current.scene,camera);drawMap();$('error-panel').hidden=true;
@@ -68,7 +68,7 @@ function showPainting(id){
  const s=scenes.find(s=>s.id===id);if(!s)return;selectedPainting=s;const modeled=worlds.find(w=>w.id!=='gallery'&&w.source===id),related=worlds.find(w=>w.id===worldForPainting(s));
  $('original-title').textContent=s.title;$('original-image').src='/assets/'+id+'.webp';$('original-image').alt='Original source painting: '+s.title;$('original-image').style.transform=s.rotation?'rotate(-90deg)':'';$('original-image').style.maxHeight=s.rotation?'50dvh':'';
  $('source-context').textContent=modeled?'This original is the main reference for '+modeled.title+'. The walkable environment interprets its painted scene and imagines the unseen sides.':related.id==='gallery'?'This original is preserved in the painting garden. It does not have a separate modeled environment.':'This original is part of the collection. '+related.title+' is a shared interpretation of related paintings; it is not a separate reconstruction of this image.';
- const list=visiblePaintings.some(p=>p.id===id)?visiblePaintings:scenes;$('original-count').textContent=(list.findIndex(p=>p.id===id)+1)+' / '+list.length;$('related-world').disabled=artOnly;
+ const list=visiblePaintings.some(p=>p.id===id)?visiblePaintings:scenes;$('original-count').textContent=(list.findIndex(p=>p.id===id)+1)+' / '+list.length;$('previous-painting').disabled=list.length<2;$('next-painting').disabled=list.length<2;$('related-world').disabled=artOnly;
  $('related-world').textContent=artOnly?'3D unavailable in this browser':modeled?'Enter this painting world →':related.id==='gallery'?'Visit the painting garden →':'Explore '+related.title+' →';openDialog('original-dialog');
 }
 function interact(){if(!nearest||busy)return;if(nearest.type==='portal'){setPlaying();loadWorld(nearest.item.to)}else showPainting(nearest.item.id)}
@@ -171,7 +171,7 @@ async function start(){
   requestAnimationFrame(animate);await loadWorld(sourceForHash(),{historyEntry:false,initial:true});registerTools();
  }catch(e){
   $('loading').hidden=true;$('welcome').hidden=true;artOnly=!renderer;app.classList.toggle('art-only',artOnly);$('error-panel').hidden=artOnly;
-  if(artOnly){$('collection-notice-text').textContent=manifest?'3D is unavailable in this browser. You can explore every original painting here.':'The 3D files could not load. You can browse the original collection or try again.';$('collection-notice').hidden=false;document.querySelectorAll('.world-card .go').forEach(el=>el.textContent='View source painting →');openDialog('collection-dialog');}
+  if(artOnly){$('place-title').textContent='The original paintings.';$('place-detail').textContent='Browse 61 preserved works, from mountain landscapes to quiet interiors.';$('collection-notice-text').textContent=manifest?'3D is unavailable in this browser. You can explore every original painting here.':'The 3D files could not load. You can browse the original collection or try again.';$('collection-notice').hidden=false;document.querySelectorAll('.world-card .go').forEach(el=>el.textContent='View source painting →');openDialog('collection-dialog');}
   console.error('Unable to start the world',e);
  }}
 start();
